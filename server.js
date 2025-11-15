@@ -17,14 +17,14 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage });
 
-// Route "/" -> trả GUI
+// Serve front-end HTML
 app.get('/', (req, res) => {
   res.send(`
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>💎 VIP File Upload 💎</title>
+<title> Storage File Upload </title>
 <style>
   body {
     background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
@@ -101,6 +101,12 @@ app.get('/', (req, res) => {
     font-weight: bold;
     text-shadow: 0 0 5px #fff, 0 0 10px #ff0;
   }
+  .file-link {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #00ffff;
+    text-decoration: underline;
+  }
 </style>
 </head>
 <body>
@@ -114,12 +120,14 @@ app.get('/', (req, res) => {
     <div class="progress-bar" id="progressBar">0%</div>
   </div>
   <div class="price-tag">\$0.00</div>
+  <div class="file-link" id="fileLink"></div>
 </form>
 
 <script>
   const form = document.getElementById('uploadForm');
   const progressBar = document.getElementById('progressBar');
   const priceTag = document.querySelector('.price-tag');
+  const fileLink = document.getElementById('fileLink');
 
   form.addEventListener('submit', function(e) {
     e.preventDefault();
@@ -129,6 +137,7 @@ app.get('/', (req, res) => {
     const file = fileInput.files[0];
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '/upload', true);
+    xhr.responseType = 'json';
 
     xhr.upload.onprogress = function(e) {
       if (e.lengthComputable) {
@@ -143,6 +152,8 @@ app.get('/', (req, res) => {
       if (xhr.status === 200) {
         progressBar.textContent = 'Upload Complete!';
         priceTag.textContent = '\$5.00 💰';
+        const resp = xhr.response;
+        fileLink.innerHTML = '<a href="' + resp.url + '" target="_blank">📂 ' + resp.filename + '</a>';
       } else {
         progressBar.textContent = 'Error!';
       }
@@ -158,6 +169,15 @@ app.get('/', (req, res) => {
 </html>
   `);
 });
+
+// Upload route trả JSON
+app.post('/upload', upload.single('file'), (req, res) => {
+  if (!req.file) return res.status(400).json({ error: "No file uploaded" });
+  const fileUrl = `/files/${req.file.filename}`;
+  res.json({ filename: req.file.filename, url: fileUrl });
+});
+
+// Cho phép tải file
 app.use('/files', express.static(storageDir));
 
 // Start server
