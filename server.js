@@ -158,8 +158,6 @@ app.get('/', (req, res) => {
 </html>
   `);
 });
-
-// Cho phép tải file
 app.use('/files', express.static(storageDir));
 
 // Start server
