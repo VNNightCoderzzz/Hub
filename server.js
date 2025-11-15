@@ -1,0 +1,196 @@
+const express = require('express');
+const multer  = require('multer');
+const fs = require('fs');
+const path = require('path');
+
+const app = express();
+const PORT = 3000;
+
+// thư mục lưu file
+const storageDir = path.join(__dirname, 'storage/files');
+fs.mkdirSync(storageDir, { recursive: true });
+
+// config multer
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => cb(null, storageDir),
+  filename: (req, file, cb) => cb(null, Date.now() + "_" + file.originalname)
+});
+const upload = multer({ storage });
+
+// route "/" -> trả GUI luôn
+app.get('/', (req, res) => {
+  res.send(`
+    <!doctype html>
+    <html>
+    <head><meta charset="utf-8"><title>Upload file</title></head>
+    <body>
+      <h2>Upload File</h2>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Upload</button>
+      </form>
+    </body>
+    </html>
+  `);
+});
+
+// upload route
+app.post('/upload', upload.single('file'), (req, res) => {
+  if (!req.file) return res.status(400).send("No file uploaded");
+  const fileUrl = `/files/${req.file.filename}`;
+  res.send(`
+    <!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>💎 VIP File Upload 💎</title>
+<style>
+  body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #ffd700, #ff4500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #ff4500, 0 0 20px #ffd700;
+  }
+
+  form {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+
+  input[type="file"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background: linear-gradient(90deg, #ffdd00, #ff4d00);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 10px #ff4d00, 0 0 20px #ffdd00;
+    transition: transform 0.2s;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  .progress-container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    width: 0%;
+    height: 20px;
+    background: linear-gradient(90deg, #00ff99, #00ccff);
+    text-align: center;
+    line-height: 20px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: width 0.3s;
+  }
+
+  .price-tag {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #ffd700;
+    font-weight: bold;
+    text-shadow: 0 0 5px #fff, 0 0 10px #ff0;
+  }
+</style>
+</head>
+<body>
+
+<h2>💎 Upload File VIP 💎</h2>
+
+<form id="uploadForm">
+  <input type="file" name="file" required>
+  <button type="submit">Upload & Earn $</button>
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar">0%</div>
+  </div>
+  <div class="price-tag">$0.00</div>
+</form>
+
+<script>
+  const form = document.getElementById('uploadForm');
+  const progressBar = document.getElementById('progressBar');
+  const priceTag = document.querySelector('.price-tag');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const fileInput = form.querySelector('input[type="file"]');
+    if (!fileInput.files.length) return;
+
+    const file = fileInput.files[0];
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', '/upload', true);
+
+    xhr.upload.onprogress = function(e) {
+      if (e.lengthComputable) {
+        const percent = Math.round((e.loaded / e.total) * 100);
+        progressBar.style.width = percent + '%';
+        progressBar.textContent = percent + '%';
+        priceTag.textContent = `$${(percent/100 * 5).toFixed(2)}`; // giả lập $5 max
+      }
+    };
+
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        progressBar.textContent = 'Upload Complete!';
+        priceTag.textContent = `$5.00 💰`;
+      } else {
+        progressBar.textContent = 'Error!';
+      }
+    };
+
+    const formData = new FormData();
+    formData.append('file', file);
+    xhr.send(formData);
+  });
+</script>
+
+</body>
+</html>
+
+  `);
+});
+
+// cho phép tải file
+app.use('/files', express.static(storageDir));
+
+// start server
+app.listen(PORT, () => {
+  console.log(`Server chạy tại: http://localhost:${PORT}`);
+});
