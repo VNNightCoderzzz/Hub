@@ -35,9 +35,7 @@ local SonicWaveAndroidUI = {
 	Title_4 = Instance.new("TextLabel"),
 	SubTitle_4 = Instance.new("TextLabel"),
 	UICorner_10 = Instance.new("UICorner"),
-	SubmitCode = Instance.new("ImageButton"),
 	UICorner_11 = Instance.new("UICorner"),
-	InjectCodeTextbox = Instance.new("TextBox"),
 	UICorner_12 = Instance.new("UICorner"),
 	ResetCode = Instance.new("ImageButton"),
 	UICorner_13 = Instance.new("UICorner"),
@@ -2553,21 +2551,6 @@ local function WEDKE_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Sett
 		--setfpscap(tonumber(readfile("settings_fps.txt")))
 	--end
 	
-	-- Set Inject Code
-	local success, result = pcall(function()
-		if isfile("injectcode.txt") then
-			script.Parent.SettingsWindow.ScrollingFrame.S3.InjectCodeTextbox.Text = readfile("injectcode.txt")
-		end
-	end)
-	
-	if not success then
-		print(result)
-	end
-	
-	--if isfile("injectcode.txt") == true then
-		--script.Parent.SettingsWindow.ScrollingFrame.S3.InjectCodeTextbox.Text = readfile("injectcode.txt")
-	--end
-	
 	
 	script.Parent.SettingsWindow.ScrollingFrame.S1.SubmitAccent.MouseButton1Click:Connect(function()
 		writefile("theme_sonicwave_color.txt", script.Parent.SettingsWindow.ScrollingFrame.S1.AccentTextBox.Text)
@@ -2583,16 +2566,6 @@ local function WEDKE_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Sett
 	script.Parent.SettingsWindow.ScrollingFrame.S2.ResetFPS.MouseButton1Click:Connect(function()
 		writefile("settings_fps.txt", "60")
 		setfpscap(60)
-	end)
-	
-	script.Parent.SettingsWindow.ScrollingFrame.S3.SubmitCode.MouseButton1Click:Connect(function()
-		writefile("injectcode.txt", script.Parent.SettingsWindow.ScrollingFrame.S3.InjectCodeTextbox.Text)
-		DevConnect(script.Parent.SettingsWindow.ScrollingFrame.S3.InjectCodeTextbox.Text)
-	end)
-	
-	script.Parent.SettingsWindow.ScrollingFrame.S3.ResetCode.MouseButton1Click:Connect(function()
-		script.Parent.SettingsWindow.ScrollingFrame.S3.InjectCodeTextbox.Text = ""
-		delfile("injectcode.txt")
 	end)
 	
 	script.Parent.SettingsWindow.ScrollingFrame.S4.ToggleBTN.MouseButton1Click:Connect(function()
