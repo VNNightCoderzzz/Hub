@@ -2343,7 +2343,10 @@ local function VKIWUQ_fake_script() -- SonicWaveAndroidUI.ScriptHubWindow.Script
 		Execute.ImageRectOffset = Vector2.new(764, 244)
 		Execute.ImageRectSize = Vector2.new(36, 36)
 		Execute.MouseButton1Click:Connect(function()
-			executecode(scripttext)
+			local code = [[
+]] .. scripttext .. [[
+]]
+			executecode(code)
 		end)
 	
 		UICorner.CornerRadius = UDim.new(0, 10)
