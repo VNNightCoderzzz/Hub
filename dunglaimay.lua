@@ -2123,6 +2123,22 @@ SonicWaveAndroidUI.UICorner_49.Parent = SonicWaveAndroidUI.DevModeB
 
 -- Scripts:
 
+function executecode(code)
+    local func, err = loadstring(code)
+    if not func then
+        warn(err)
+        return
+    end
+
+    local ok, result = pcall(func)
+    if not ok then
+        warn(result)
+        return
+    end
+
+    return result
+end
+
 local function EIDAT_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.EverythingElse 
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.SonicWaveAndroidUI)
 
@@ -2441,13 +2457,8 @@ local function VKIWUQ_fake_script() -- SonicWaveAndroidUI.ScriptHubWindow.Script
 	end)
 end
 coroutine.wrap(VKIWUQ_fake_script)()
-local function LCSYH_fake_script() -- SonicWaveAndroidUI.UsernamePlace.UsernameAttachment 
+local function LCSYH_fake_script()
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.UsernamePlace)
-
-	-- Username Setting
-	-- From: https://www.youtube.com/watch?v=e4nBaHjr5Hw
-	-- dunno how to make one myself l0l
-	
 	local plrAvatar, isReady = game:GetService("Players"):GetUserThumbnailAsync(game:GetService("Players").LocalPlayer.UserId, Enum.ThumbnailType.AvatarBust, Enum.ThumbnailSize.Size48x48)
 	
 	script.Parent.Title.Text = "Hello!\n"..game:GetService("Players").LocalPlayer.Name
@@ -2594,6 +2605,7 @@ local function AXFKKD_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Loa
 	KSCanUse = true
 	BKKeySystem = "2309e1bb31175chd3826f1a4e7fb3f5d88d0d6e6a532f518e716a1806014996"
 	
+
 	function CheckIfAutoexecExists()
 		local success, err = pcall(function()
 			if not arceus.isarceusfolder(zidongjiaobenyunxinglujingzifuchuan) then
