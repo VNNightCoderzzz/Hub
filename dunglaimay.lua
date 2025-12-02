@@ -280,7 +280,7 @@ SonicWaveAndroidUI.Title.BorderSizePixel = 0
 SonicWaveAndroidUI.Title.Position = UDim2.new(0, 87, 0, 0)
 SonicWaveAndroidUI.Title.Size = UDim2.new(0.5, 0, 0.5, 0)
 SonicWaveAndroidUI.Title.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.Title.Text = "SonicWave"
+SonicWaveAndroidUI.Title.Text = "SonicWave 1.3.1"
 SonicWaveAndroidUI.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.Title.TextSize = 19.000
 SonicWaveAndroidUI.Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -841,7 +841,7 @@ SonicWaveAndroidUI.TitleLabel.BorderSizePixel = 0
 SonicWaveAndroidUI.TitleLabel.Position = UDim2.new(0, 40, 0, 70)
 SonicWaveAndroidUI.TitleLabel.Size = UDim2.new(0, 150, 0, 25)
 SonicWaveAndroidUI.TitleLabel.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.TitleLabel.Text = "SonicWave"
+SonicWaveAndroidUI.TitleLabel.Text = "SonicWave 1.3.1"
 SonicWaveAndroidUI.TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.TitleLabel.TextSize = 12.000
 SonicWaveAndroidUI.TitleLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -1308,7 +1308,7 @@ SonicWaveAndroidUI.TitleLabel_2.BorderSizePixel = 0
 SonicWaveAndroidUI.TitleLabel_2.Position = UDim2.new(0, 40, 0, 10)
 SonicWaveAndroidUI.TitleLabel_2.Size = UDim2.new(0, 150, 0, 25)
 SonicWaveAndroidUI.TitleLabel_2.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.TitleLabel_2.Text = "SonicWave
+SonicWaveAndroidUI.TitleLabel_2.Text = "SonicWave 1.3.1"
 SonicWaveAndroidUI.TitleLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.TitleLabel_2.TextSize = 12.000
 SonicWaveAndroidUI.TitleLabel_2.TextXAlignment = Enum.TextXAlignment.Left
@@ -1358,7 +1358,7 @@ SonicWaveAndroidUI.TitleLabel_4.BorderSizePixel = 0
 SonicWaveAndroidUI.TitleLabel_4.Position = UDim2.new(0, 10, 0, 39)
 SonicWaveAndroidUI.TitleLabel_4.Size = UDim2.new(1, -20, 1, -97)
 SonicWaveAndroidUI.TitleLabel_4.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.TitleLabel_4.Text = "soon"
+SonicWaveAndroidUI.TitleLabel_4.Text = "..."
 SonicWaveAndroidUI.TitleLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.TitleLabel_4.TextScaled = true
 SonicWaveAndroidUI.TitleLabel_4.TextSize = 12.000
@@ -1375,7 +1375,7 @@ SonicWaveAndroidUI.CopyWebsiteURL.Position = UDim2.new(0.5, 0, 1, -50)
 SonicWaveAndroidUI.CopyWebsiteURL.Size = UDim2.new(1, -20, 0, 40)
 SonicWaveAndroidUI.CopyWebsiteURL.ZIndex = 101
 SonicWaveAndroidUI.CopyWebsiteURL.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.CopyWebsiteURL.Text = "SonicWave Premium ( Soon )"
+SonicWaveAndroidUI.CopyWebsiteURL.Text = "..."
 SonicWaveAndroidUI.CopyWebsiteURL.TextColor3 = Color3.fromRGB(195, 57, 57)
 SonicWaveAndroidUI.CopyWebsiteURL.TextSize = 16.000
 
@@ -1446,7 +1446,7 @@ SonicWaveAndroidUI.MainTitle.LayoutOrder = 1
 SonicWaveAndroidUI.MainTitle.Position = UDim2.new(0, 7, 0, 88)
 SonicWaveAndroidUI.MainTitle.Size = UDim2.new(1, -14, 0, 21)
 SonicWaveAndroidUI.MainTitle.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.MainTitle.Text = "SonicWave"
+SonicWaveAndroidUI.MainTitle.Text = "..."
 SonicWaveAndroidUI.MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.MainTitle.TextSize = 18.000
 SonicWaveAndroidUI.MainTitle.TextYAlignment = Enum.TextYAlignment.Top
@@ -2567,6 +2567,51 @@ local function WEDKE_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Sett
 	end)
 end
 coroutine.wrap(WEDKE_fake_script)()
+local function AXFKKD_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Loading 
+	local script = Instance.new('LocalScript', SonicWaveAndroidUI.SonicWaveAndroidUI)
+	ATime = 2
+	zidongjiaobenyunxinglujingzifuchuan = "Autoexec"
+	
+	KSCanUse = true
+	BKKeySystem = "2309e1bb31175chd3826f1a4e7fb3f5d88d0d6e6a532f518e716a1806014996"
+	
+	function CheckIfAutoexecExists()
+		local success, err = pcall(function()
+			if not arceus.isarceusfolder(zidongjiaobenyunxinglujingzifuchuan) then
+				arceus.makearceusfolder(zidongjiaobenyunxinglujingzifuchuan)
+			end
+		end)
+	
+		if not success then
+			print(zidongjiaobenyunxinglujingzifuchuan, err)
+		end
+	end
+	
+	
+	function LoadAutoexec()
+		local success, err = pcall(function()
+			if arceus.isarceusfolder(zidongjiaobenyunxinglujingzifuchuan) then
+				for _, scriptfile in pairs(arceus.listarceusfiles(zidongjiaobenyunxinglujingzifuchuan)) do
+					local code, readErr = arceus.readarceusfile(scriptfile)
+					if code then
+						executecode(arceus.readarceusfile(scriptfile))
+					else
+						print(zidongjiaobenyunxinglujingzifuchuan, readErr)
+					end
+				end
+			end
+		end)
+	
+		if not success then
+			print(zidongjiaobenyunxinglujingzifuchuan, err)
+		end
+	end
+	CheckIfAutoexecExists()
+	local KeyIsValid = true
+	
+	
+end
+coroutine.wrap(AXFKKD_fake_script)()
 local function HMEQ_fake_script()
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.ScrollingBox)
 
