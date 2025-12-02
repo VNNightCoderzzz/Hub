@@ -304,7 +304,8 @@ SonicWaveAndroidUI.SubTitle.TextYAlignment = Enum.TextYAlignment.Top
 SonicWaveAndroidUI.UICorner.CornerRadius = UDim.new(0, 10)
 SonicWaveAndroidUI.UICorner.Parent = SonicWaveAndroidUI.S0
 
-SonicWaveAndroidUI.UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(195, 57, 57)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 88))}
+SonicWaveAndroidUI.UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(135, 206, 235)
+), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 88))}
 SonicWaveAndroidUI.UIGradient.Parent = SonicWaveAndroidUI.S0
 
 SonicWaveAndroidUI.SonicWaveLogo.Name = "SonicWaveLogo"
@@ -317,7 +318,7 @@ SonicWaveAndroidUI.SonicWaveLogo.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo.Position = UDim2.new(0, 25, 0.5, 0)
 SonicWaveAndroidUI.SonicWaveLogo.Size = UDim2.new(0, 52, 0, 52)
 SonicWaveAndroidUI.SonicWaveLogo.ZIndex = 21
-SonicWaveAndroidUI.SonicWaveLogo.Image = "rbxassetid://70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo.Image = "rbxassetid://88521761372032"
 
 SonicWaveAndroidUI.S1.Name = "S1"
 SonicWaveAndroidUI.S1.Parent = SonicWaveAndroidUI.ScrollingFrame
@@ -555,7 +556,8 @@ SonicWaveAndroidUI.UICorner_14.Parent = SonicWaveAndroidUI.S4
 SonicWaveAndroidUI.ToggleBTN.Name = "ToggleBTN"
 SonicWaveAndroidUI.ToggleBTN.Parent = SonicWaveAndroidUI.S4
 SonicWaveAndroidUI.ToggleBTN.AnchorPoint = Vector2.new(1, 0.5)
-SonicWaveAndroidUI.ToggleBTN.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.ToggleBTN.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.ToggleBTN.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SonicWaveAndroidUI.ToggleBTN.BorderSizePixel = 0
 SonicWaveAndroidUI.ToggleBTN.Position = UDim2.new(1, -20, 0.5, 0)
@@ -652,7 +654,7 @@ SonicWaveAndroidUI.ImageLabel.BackgroundTransparency = 1.000
 SonicWaveAndroidUI.ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.ImageLabel.BorderSizePixel = 0
 SonicWaveAndroidUI.ImageLabel.Size = UDim2.new(1, 0, 1, 0)
-SonicWaveAndroidUI.ImageLabel.Image = "rbxassetid://70693302409213"
+SonicWaveAndroidUI.ImageLabel.Image = "rbxassetid://88521761372032"
 SonicWaveAndroidUI.ImageLabel.ScaleType = Enum.ScaleType.Crop
 
 SonicWaveAndroidUI.UICorner_18.CornerRadius = UDim.new(0, 10)
@@ -803,7 +805,8 @@ SonicWaveAndroidUI.SidebarFrame.Size = UDim2.new(0, 200, 1, 0)
 
 SonicWaveAndroidUI.Banner.Name = "Banner"
 SonicWaveAndroidUI.Banner.Parent = SonicWaveAndroidUI.SidebarFrame
-SonicWaveAndroidUI.Banner.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.Banner.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.Banner.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.Banner.BorderSizePixel = 0
 SonicWaveAndroidUI.Banner.Position = UDim2.new(0, 0, 0, -60)
@@ -829,7 +832,7 @@ SonicWaveAndroidUI.SonicWaveLogo_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.SonicWaveLogo_2.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo_2.Position = UDim2.new(0, 10, 0, 70)
 SonicWaveAndroidUI.SonicWaveLogo_2.Size = UDim2.new(0, 25, 0, 25)
-SonicWaveAndroidUI.SonicWaveLogo_2.Image = "rbxassetid://70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo_2.Image = "rbxassetid://88521761372032"
 
 SonicWaveAndroidUI.TitleLabel.Name = "TitleLabel"
 SonicWaveAndroidUI.TitleLabel.Parent = SonicWaveAndroidUI.Banner
@@ -887,7 +890,8 @@ SonicWaveAndroidUI.Title_7.TextXAlignment = Enum.TextXAlignment.Left
 
 SonicWaveAndroidUI.Icon.Name = "Icon"
 SonicWaveAndroidUI.Icon.Parent = SonicWaveAndroidUI.UsernamePlace
-SonicWaveAndroidUI.Icon.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.Icon.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.Icon.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.Icon.BorderSizePixel = 0
 SonicWaveAndroidUI.Icon.Position = UDim2.new(0, 10, 0, 10)
@@ -934,7 +938,8 @@ SonicWaveAndroidUI.Title_8.TextXAlignment = Enum.TextXAlignment.Left
 SonicWaveAndroidUI.C1EB.Name = "C1EB"
 SonicWaveAndroidUI.C1EB.Parent = SonicWaveAndroidUI.Choice1
 SonicWaveAndroidUI.C1EB.AnchorPoint = Vector2.new(0.5, 1)
-SonicWaveAndroidUI.C1EB.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.C1EB.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.C1EB.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.C1EB.BorderSizePixel = 0
 SonicWaveAndroidUI.C1EB.Position = UDim2.new(0.5, 0, 1, -10)
@@ -949,7 +954,8 @@ SonicWaveAndroidUI.UICorner_23.Parent = SonicWaveAndroidUI.C1EB
 
 SonicWaveAndroidUI.Icon_2.Name = "Icon"
 SonicWaveAndroidUI.Icon_2.Parent = SonicWaveAndroidUI.Choice1
-SonicWaveAndroidUI.Icon_2.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.Icon_2.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.Icon_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.Icon_2.BorderSizePixel = 0
 SonicWaveAndroidUI.Icon_2.Position = UDim2.new(0, 10, 0, 10)
@@ -995,7 +1001,8 @@ SonicWaveAndroidUI.Title_9.TextXAlignment = Enum.TextXAlignment.Left
 SonicWaveAndroidUI.C2EB.Name = "C2EB"
 SonicWaveAndroidUI.C2EB.Parent = SonicWaveAndroidUI.Choice2
 SonicWaveAndroidUI.C2EB.AnchorPoint = Vector2.new(0.5, 1)
-SonicWaveAndroidUI.C2EB.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.C2EB.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.C2EB.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.C2EB.BorderSizePixel = 0
 SonicWaveAndroidUI.C2EB.Position = UDim2.new(0.5, 0, 1, -10)
@@ -1010,7 +1017,8 @@ SonicWaveAndroidUI.UICorner_25.Parent = SonicWaveAndroidUI.C2EB
 
 SonicWaveAndroidUI.Icon_3.Name = "Icon"
 SonicWaveAndroidUI.Icon_3.Parent = SonicWaveAndroidUI.Choice2
-SonicWaveAndroidUI.Icon_3.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.Icon_3.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.Icon_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.Icon_3.BorderSizePixel = 0
 SonicWaveAndroidUI.Icon_3.Position = UDim2.new(0, 10, 0, 10)
@@ -1056,7 +1064,8 @@ SonicWaveAndroidUI.Title_10.TextXAlignment = Enum.TextXAlignment.Left
 SonicWaveAndroidUI.C3EB.Name = "C3EB"
 SonicWaveAndroidUI.C3EB.Parent = SonicWaveAndroidUI.Choice3
 SonicWaveAndroidUI.C3EB.AnchorPoint = Vector2.new(0.5, 1)
-SonicWaveAndroidUI.C3EB.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.C3EB.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.C3EB.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.C3EB.BorderSizePixel = 0
 SonicWaveAndroidUI.C3EB.Position = UDim2.new(0.5, 0, 1, -10)
@@ -1071,7 +1080,8 @@ SonicWaveAndroidUI.UICorner_27.Parent = SonicWaveAndroidUI.C3EB
 
 SonicWaveAndroidUI.Icon_4.Name = "Icon"
 SonicWaveAndroidUI.Icon_4.Parent = SonicWaveAndroidUI.Choice3
-SonicWaveAndroidUI.Icon_4.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.Icon_4.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.Icon_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.Icon_4.BorderSizePixel = 0
 SonicWaveAndroidUI.Icon_4.Position = UDim2.new(0, 10, 0, 10)
@@ -1134,7 +1144,7 @@ SonicWaveAndroidUI.ImageLabel_5.BorderSizePixel = 0
 SonicWaveAndroidUI.ImageLabel_5.Position = UDim2.new(0.5, 0, 0.5, 0)
 SonicWaveAndroidUI.ImageLabel_5.Size = UDim2.new(1, 0, 1, 0)
 SonicWaveAndroidUI.ImageLabel_5.ZIndex = 11
-SonicWaveAndroidUI.ImageLabel_5.Image = "rbxassetid://70693302409213"
+SonicWaveAndroidUI.ImageLabel_5.Image = "rbxassetid://88521761372032"
 
 SonicWaveAndroidUI.DragTouch.Name = "DragTouch"
 SonicWaveAndroidUI.DragTouch.Parent = SonicWaveAndroidUI.SonicWaveMenuToggleFrame
@@ -1204,7 +1214,8 @@ SonicWaveAndroidUI.ApproveKeyB.Name = "ApproveKeyB"
 SonicWaveAndroidUI.ApproveKeyB.Parent = SonicWaveAndroidUI.ButtonParent
 SonicWaveAndroidUI.ApproveKeyB.Active = false
 SonicWaveAndroidUI.ApproveKeyB.AnchorPoint = Vector2.new(0.5, 1)
-SonicWaveAndroidUI.ApproveKeyB.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.ApproveKeyB.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.ApproveKeyB.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.ApproveKeyB.BorderSizePixel = 0
 SonicWaveAndroidUI.ApproveKeyB.LayoutOrder = 1
@@ -1222,7 +1233,8 @@ SonicWaveAndroidUI.GetKeyB.Name = "GetKeyB"
 SonicWaveAndroidUI.GetKeyB.Parent = SonicWaveAndroidUI.ButtonParent
 SonicWaveAndroidUI.GetKeyB.Active = false
 SonicWaveAndroidUI.GetKeyB.AnchorPoint = Vector2.new(0.5, 1)
-SonicWaveAndroidUI.GetKeyB.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.GetKeyB.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.GetKeyB.BackgroundTransparency = 0.500
 SonicWaveAndroidUI.GetKeyB.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.GetKeyB.BorderSizePixel = 0
@@ -1267,7 +1279,8 @@ SonicWaveAndroidUI.BannerParent.Size = UDim2.new(1, -50, 1, -305)
 
 SonicWaveAndroidUI.MainBanner.Name = "MainBanner"
 SonicWaveAndroidUI.MainBanner.Parent = SonicWaveAndroidUI.BannerParent
-SonicWaveAndroidUI.MainBanner.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.MainBanner.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.MainBanner.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.MainBanner.BorderSizePixel = 0
 SonicWaveAndroidUI.MainBanner.ClipsDescendants = true
@@ -1281,7 +1294,7 @@ SonicWaveAndroidUI.SonicWaveLogo_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.SonicWaveLogo_3.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo_3.Position = UDim2.new(0, 10, 0, 10)
 SonicWaveAndroidUI.SonicWaveLogo_3.Size = UDim2.new(0, 25, 0, 25)
-SonicWaveAndroidUI.SonicWaveLogo_3.Image = "rbxassetid://70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo_3.Image = "rbxassetid://88521761372032"
 
 SonicWaveAndroidUI.UICorner_34.Parent = SonicWaveAndroidUI.MainBanner
 
@@ -1314,7 +1327,8 @@ SonicWaveAndroidUI.TitleLabel_2.TextXAlignment = Enum.TextXAlignment.Left
 SonicWaveAndroidUI.PremiumBanner.Name = "PremiumBanner"
 SonicWaveAndroidUI.PremiumBanner.Parent = SonicWaveAndroidUI.BannerParent
 SonicWaveAndroidUI.PremiumBanner.AnchorPoint = Vector2.new(1, 0)
-SonicWaveAndroidUI.PremiumBanner.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.PremiumBanner.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.PremiumBanner.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.PremiumBanner.BorderSizePixel = 0
 SonicWaveAndroidUI.PremiumBanner.ClipsDescendants = true
@@ -1329,7 +1343,7 @@ SonicWaveAndroidUI.SonicWaveLogo_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.SonicWaveLogo_4.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo_4.Position = UDim2.new(0, 10, 0, 10)
 SonicWaveAndroidUI.SonicWaveLogo_4.Size = UDim2.new(0, 25, 0, 25)
-SonicWaveAndroidUI.SonicWaveLogo_4.Image = "rbxassetid://70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo_4.Image = "rbxassetid://88521761372032"
 
 SonicWaveAndroidUI.UICorner_35.Parent = SonicWaveAndroidUI.PremiumBanner
 
@@ -1374,7 +1388,8 @@ SonicWaveAndroidUI.CopyWebsiteURL.Size = UDim2.new(1, -20, 0, 40)
 SonicWaveAndroidUI.CopyWebsiteURL.ZIndex = 101
 SonicWaveAndroidUI.CopyWebsiteURL.Font = Enum.Font.GothamBold
 SonicWaveAndroidUI.CopyWebsiteURL.Text = "..."
-SonicWaveAndroidUI.CopyWebsiteURL.TextColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.CopyWebsiteURL.TextColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.CopyWebsiteURL.TextSize = 16.000
 
 SonicWaveAndroidUI.UICorner_36.CornerRadius = UDim.new(0, 4)
@@ -1495,7 +1510,7 @@ SonicWaveAndroidUI.ImageLabel_6.BorderSizePixel = 0
 SonicWaveAndroidUI.ImageLabel_6.Position = UDim2.new(0.5, 0, 0.5, 0)
 SonicWaveAndroidUI.ImageLabel_6.Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
 SonicWaveAndroidUI.ImageLabel_6.ZIndex = 11
-SonicWaveAndroidUI.ImageLabel_6.Image = "rbxassetid://70693302409213"
+SonicWaveAndroidUI.ImageLabel_6.Image = "rbxassetid://88521761372032"
 
 SonicWaveAndroidUI.IntroFrame.Name = "IntroFrame"
 SonicWaveAndroidUI.IntroFrame.Parent = SonicWaveAndroidUI.SonicWaveAndroidUI
@@ -1609,7 +1624,8 @@ SonicWaveAndroidUI.R9.ZIndex = 9
 
 SonicWaveAndroidUI.R10.Name = "R10"
 SonicWaveAndroidUI.R10.Parent = SonicWaveAndroidUI.BackgroundFrame
-SonicWaveAndroidUI.R10.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.R10.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.R10.BackgroundTransparency = 1.000
 SonicWaveAndroidUI.R10.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SonicWaveAndroidUI.R10.BorderSizePixel = 0
@@ -1727,7 +1743,7 @@ SonicWaveAndroidUI.SonicWaveLogo_5.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo_5.Position = UDim2.new(0.5, 0, 0.699999988, 0)
 SonicWaveAndroidUI.SonicWaveLogo_5.Size = UDim2.new(0, 100, 0, 100)
 SonicWaveAndroidUI.SonicWaveLogo_5.ZIndex = 21
-SonicWaveAndroidUI.SonicWaveLogo_5.Image = "rbxassetid://70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo_5.Image = "rbxassetid://88521761372032"
 SonicWaveAndroidUI.SonicWaveLogo_5.ImageTransparency = 1.000
 
 SonicWaveAndroidUI.ScriptListWindow.Name = "ScriptListWindow"
@@ -1849,7 +1865,8 @@ SonicWaveAndroidUI.UIListLayout_6.Padding = UDim.new(0, 5)
 SonicWaveAndroidUI.ExecuteB.Name = "ExecuteB"
 SonicWaveAndroidUI.ExecuteB.Parent = SonicWaveAndroidUI.ScriptListWindow
 SonicWaveAndroidUI.ExecuteB.Active = false
-SonicWaveAndroidUI.ExecuteB.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.ExecuteB.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.ExecuteB.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.ExecuteB.BorderSizePixel = 0
 SonicWaveAndroidUI.ExecuteB.Position = UDim2.new(0, 5, 0, 78)
@@ -1875,7 +1892,8 @@ SonicWaveAndroidUI.ExecutorWindow.Size = UDim2.new(1, -200, 1, 60)
 SonicWaveAndroidUI.ExecuteB_2.Name = "ExecuteB"
 SonicWaveAndroidUI.ExecuteB_2.Parent = SonicWaveAndroidUI.ExecutorWindow
 SonicWaveAndroidUI.ExecuteB_2.Active = false
-SonicWaveAndroidUI.ExecuteB_2.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.ExecuteB_2.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.ExecuteB_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.ExecuteB_2.BorderSizePixel = 0
 SonicWaveAndroidUI.ExecuteB_2.Position = UDim2.new(0, 5, 0, 78)
@@ -1891,7 +1909,8 @@ SonicWaveAndroidUI.UICorner_44.Parent = SonicWaveAndroidUI.ExecuteB_2
 SonicWaveAndroidUI.PasteandExecuteB.Name = "PasteandExecuteB"
 SonicWaveAndroidUI.PasteandExecuteB.Parent = SonicWaveAndroidUI.ExecutorWindow
 SonicWaveAndroidUI.PasteandExecuteB.Active = false
-SonicWaveAndroidUI.PasteandExecuteB.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.PasteandExecuteB.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.PasteandExecuteB.BackgroundTransparency = 0.300
 SonicWaveAndroidUI.PasteandExecuteB.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.PasteandExecuteB.BorderSizePixel = 0
@@ -1968,7 +1987,8 @@ SonicWaveAndroidUI.UICorner_46.Parent = SonicWaveAndroidUI.ScrollingBox
 
 SonicWaveAndroidUI.TabbingSystem.Name = "TabbingSystem"
 SonicWaveAndroidUI.TabbingSystem.Parent = SonicWaveAndroidUI.ExecutorWindow
-SonicWaveAndroidUI.TabbingSystem.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.TabbingSystem.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.TabbingSystem.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.TabbingSystem.Position = UDim2.new(0, 5, 0, 113)
 SonicWaveAndroidUI.TabbingSystem.Size = UDim2.new(0, 224, 0, 30)
@@ -2086,7 +2106,8 @@ SonicWaveAndroidUI.UICorner_48.Parent = SonicWaveAndroidUI.ClearB
 SonicWaveAndroidUI.DevModeB.Name = "DevModeB"
 SonicWaveAndroidUI.DevModeB.Parent = SonicWaveAndroidUI.ExecutorWindow
 SonicWaveAndroidUI.DevModeB.Active = false
-SonicWaveAndroidUI.DevModeB.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.DevModeB.BackgroundColor3 = Color3.fromRGB(135, 206, 235)
+
 SonicWaveAndroidUI.DevModeB.BackgroundTransparency = 0.300
 SonicWaveAndroidUI.DevModeB.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.DevModeB.BorderSizePixel = 0
