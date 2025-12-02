@@ -205,7 +205,6 @@ local SonicWaveAndroidUI = {
 	DevModeB = Instance.new("TextButton"),
 	UICorner_49 = Instance.new("UICorner"),
 }
-
 --Properties:
 
 SonicWaveAndroidUI.SonicWaveAndroidUI.Name = "SonicWaveAndroidUI"
@@ -281,7 +280,7 @@ SonicWaveAndroidUI.Title.BorderSizePixel = 0
 SonicWaveAndroidUI.Title.Position = UDim2.new(0, 87, 0, 0)
 SonicWaveAndroidUI.Title.Size = UDim2.new(0.5, 0, 0.5, 0)
 SonicWaveAndroidUI.Title.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.Title.Text = "SonicWave 1.2"
+SonicWaveAndroidUI.Title.Text = "Vega X 4.0"
 SonicWaveAndroidUI.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.Title.TextSize = 19.000
 SonicWaveAndroidUI.Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -512,40 +511,6 @@ SonicWaveAndroidUI.S3.Size = UDim2.new(1, -10, 0, 75)
 SonicWaveAndroidUI.UICorner_10.CornerRadius = UDim.new(0, 10)
 SonicWaveAndroidUI.UICorner_10.Parent = SonicWaveAndroidUI.S3
 
-SonicWaveAndroidUI.SubmitCode.Name = "SubmitCode"
-SonicWaveAndroidUI.SubmitCode.Parent = SonicWaveAndroidUI.S3
-SonicWaveAndroidUI.SubmitCode.AnchorPoint = Vector2.new(1, 0.5)
-SonicWaveAndroidUI.SubmitCode.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
-SonicWaveAndroidUI.SubmitCode.BorderColor3 = Color3.fromRGB(27, 42, 53)
-SonicWaveAndroidUI.SubmitCode.BorderSizePixel = 0
-SonicWaveAndroidUI.SubmitCode.LayoutOrder = 10
-SonicWaveAndroidUI.SubmitCode.Position = UDim2.new(1, -59, 0.5, 0)
-SonicWaveAndroidUI.SubmitCode.Size = UDim2.new(0, 34, 0, 34)
-SonicWaveAndroidUI.SubmitCode.ZIndex = 2
-SonicWaveAndroidUI.SubmitCode.Image = "rbxassetid://3926305904"
-SonicWaveAndroidUI.SubmitCode.ImageRectOffset = Vector2.new(124, 924)
-SonicWaveAndroidUI.SubmitCode.ImageRectSize = Vector2.new(36, 36)
-
-SonicWaveAndroidUI.UICorner_11.CornerRadius = UDim.new(0, 10)
-SonicWaveAndroidUI.UICorner_11.Parent = SonicWaveAndroidUI.SubmitCode
-
-SonicWaveAndroidUI.ResetCode.Name = "ResetCode"
-SonicWaveAndroidUI.ResetCode.Parent = SonicWaveAndroidUI.S3
-SonicWaveAndroidUI.ResetCode.AnchorPoint = Vector2.new(1, 0.5)
-SonicWaveAndroidUI.ResetCode.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
-SonicWaveAndroidUI.ResetCode.BorderColor3 = Color3.fromRGB(27, 42, 53)
-SonicWaveAndroidUI.ResetCode.BorderSizePixel = 0
-SonicWaveAndroidUI.ResetCode.LayoutOrder = 10
-SonicWaveAndroidUI.ResetCode.Position = UDim2.new(1, -20, 0.5, 0)
-SonicWaveAndroidUI.ResetCode.Size = UDim2.new(0, 34, 0, 34)
-SonicWaveAndroidUI.ResetCode.ZIndex = 2
-SonicWaveAndroidUI.ResetCode.Image = "rbxassetid://3926305904"
-SonicWaveAndroidUI.ResetCode.ImageRectOffset = Vector2.new(644, 724)
-SonicWaveAndroidUI.ResetCode.ImageRectSize = Vector2.new(36, 36)
-
-SonicWaveAndroidUI.UICorner_13.CornerRadius = UDim.new(0, 10)
-SonicWaveAndroidUI.UICorner_13.Parent = SonicWaveAndroidUI.ResetCode
-
 SonicWaveAndroidUI.S4.Name = "S4"
 SonicWaveAndroidUI.S4.Parent = SonicWaveAndroidUI.ScrollingFrame
 SonicWaveAndroidUI.S4.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
@@ -768,7 +733,7 @@ SonicWaveAndroidUI.WindowSubTitle.BorderSizePixel = 0
 SonicWaveAndroidUI.WindowSubTitle.Position = UDim2.new(0, 7, 0, 72)
 SonicWaveAndroidUI.WindowSubTitle.Size = UDim2.new(0, 309, 0, 14)
 SonicWaveAndroidUI.WindowSubTitle.Font = Enum.Font.Gotham
-SonicWaveAndroidUI.WindowSubTitle.Text = "Powered by ScriptBlox"
+SonicWaveAndroidUI.WindowSubTitle.Text = "Powered by ScriptBlox, Aggregation System by Zyrex, Modified by Rudy."
 SonicWaveAndroidUI.WindowSubTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.WindowSubTitle.TextSize = 12.000
 SonicWaveAndroidUI.WindowSubTitle.TextXAlignment = Enum.TextXAlignment.Left
@@ -876,7 +841,7 @@ SonicWaveAndroidUI.TitleLabel.BorderSizePixel = 0
 SonicWaveAndroidUI.TitleLabel.Position = UDim2.new(0, 40, 0, 70)
 SonicWaveAndroidUI.TitleLabel.Size = UDim2.new(0, 150, 0, 25)
 SonicWaveAndroidUI.TitleLabel.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.TitleLabel.Text = "SonicWave 1.2"
+SonicWaveAndroidUI.TitleLabel.Text = "Vega X 4.0.6"
 SonicWaveAndroidUI.TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.TitleLabel.TextSize = 12.000
 SonicWaveAndroidUI.TitleLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -1343,7 +1308,7 @@ SonicWaveAndroidUI.TitleLabel_2.BorderSizePixel = 0
 SonicWaveAndroidUI.TitleLabel_2.Position = UDim2.new(0, 40, 0, 10)
 SonicWaveAndroidUI.TitleLabel_2.Size = UDim2.new(0, 150, 0, 25)
 SonicWaveAndroidUI.TitleLabel_2.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.TitleLabel_2.Text = "SonicWave 1.2"
+SonicWaveAndroidUI.TitleLabel_2.Text = "Vega X 4.0"
 SonicWaveAndroidUI.TitleLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.TitleLabel_2.TextSize = 12.000
 SonicWaveAndroidUI.TitleLabel_2.TextXAlignment = Enum.TextXAlignment.Left
@@ -1393,7 +1358,7 @@ SonicWaveAndroidUI.TitleLabel_4.BorderSizePixel = 0
 SonicWaveAndroidUI.TitleLabel_4.Position = UDim2.new(0, 10, 0, 39)
 SonicWaveAndroidUI.TitleLabel_4.Size = UDim2.new(1, -20, 1, -97)
 SonicWaveAndroidUI.TitleLabel_4.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.TitleLabel_4.Text = "Want to skip the keys?\nGet SonicWave Premium below!"
+SonicWaveAndroidUI.TitleLabel_4.Text = "Want to skip the keys?\nGet Vega X Premium below!"
 SonicWaveAndroidUI.TitleLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.TitleLabel_4.TextScaled = true
 SonicWaveAndroidUI.TitleLabel_4.TextSize = 12.000
@@ -1410,7 +1375,7 @@ SonicWaveAndroidUI.CopyWebsiteURL.Position = UDim2.new(0.5, 0, 1, -50)
 SonicWaveAndroidUI.CopyWebsiteURL.Size = UDim2.new(1, -20, 0, 40)
 SonicWaveAndroidUI.CopyWebsiteURL.ZIndex = 101
 SonicWaveAndroidUI.CopyWebsiteURL.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.CopyWebsiteURL.Text = "Get SonicWave Premium"
+SonicWaveAndroidUI.CopyWebsiteURL.Text = "Get Vega X Premium"
 SonicWaveAndroidUI.CopyWebsiteURL.TextColor3 = Color3.fromRGB(195, 57, 57)
 SonicWaveAndroidUI.CopyWebsiteURL.TextSize = 16.000
 
@@ -1481,7 +1446,7 @@ SonicWaveAndroidUI.MainTitle.LayoutOrder = 1
 SonicWaveAndroidUI.MainTitle.Position = UDim2.new(0, 7, 0, 88)
 SonicWaveAndroidUI.MainTitle.Size = UDim2.new(1, -14, 0, 21)
 SonicWaveAndroidUI.MainTitle.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.MainTitle.Text = "[SonicWave] Key System"
+SonicWaveAndroidUI.MainTitle.Text = "[Vega X] Key System"
 SonicWaveAndroidUI.MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.MainTitle.TextSize = 18.000
 SonicWaveAndroidUI.MainTitle.TextYAlignment = Enum.TextYAlignment.Top
@@ -2120,10 +2085,26 @@ SonicWaveAndroidUI.ClearB.TextSize = 14.000
 SonicWaveAndroidUI.UICorner_48.CornerRadius = UDim.new(0, 4)
 SonicWaveAndroidUI.UICorner_48.Parent = SonicWaveAndroidUI.ClearB
 
+SonicWaveAndroidUI.DevModeB.Name = "DevModeB"
+SonicWaveAndroidUI.DevModeB.Parent = SonicWaveAndroidUI.ExecutorWindow
+SonicWaveAndroidUI.DevModeB.Active = false
+SonicWaveAndroidUI.DevModeB.BackgroundColor3 = Color3.fromRGB(195, 57, 57)
+SonicWaveAndroidUI.DevModeB.BackgroundTransparency = 0.300
+SonicWaveAndroidUI.DevModeB.BorderColor3 = Color3.fromRGB(27, 42, 53)
+SonicWaveAndroidUI.DevModeB.BorderSizePixel = 0
+SonicWaveAndroidUI.DevModeB.Position = UDim2.new(0, 235, 0, 78)
+SonicWaveAndroidUI.DevModeB.Size = UDim2.new(0, 85, 0, 30)
+SonicWaveAndroidUI.DevModeB.Font = Enum.Font.GothamBold
+SonicWaveAndroidUI.DevModeB.Text = "Dev Mode"
+SonicWaveAndroidUI.DevModeB.TextColor3 = Color3.fromRGB(255, 255, 255)
+SonicWaveAndroidUI.DevModeB.TextSize = 14.000
+
+SonicWaveAndroidUI.UICorner_49.CornerRadius = UDim.new(0, 4)
+SonicWaveAndroidUI.UICorner_49.Parent = SonicWaveAndroidUI.DevModeB
 
 -- Scripts:
 
-local function EIDAT_fake_script()
+local function EIDAT_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.EverythingElse 
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.SonicWaveAndroidUI)
 
 	local TweenService = game:GetService("TweenService")
@@ -2240,12 +2221,16 @@ local function EIDAT_fake_script()
 	
 end
 coroutine.wrap(EIDAT_fake_script)()
-local function VKIWUQ_fake_script()
+local function VKIWUQ_fake_script() -- SonicWaveAndroidUI.ScriptHubWindow.ScriptBloxCode 
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.ScriptHubWindow)
 
 	ChosenColor = "#1890ff"
 	local page = 1
 	local searchstring = "default"
+	
+	if isfile("theme_sonicwave_color.txt") == true then
+		ChosenColor = readfile("theme_sonicwave_color.txt")
+	end
 	
 	local httpService = game:GetService("HttpService");
 	local content = {};
@@ -2437,8 +2422,12 @@ local function VKIWUQ_fake_script()
 	end)
 end
 coroutine.wrap(VKIWUQ_fake_script)()
-local function LCSYH_fake_script()
+local function LCSYH_fake_script() -- SonicWaveAndroidUI.UsernamePlace.UsernameAttachment 
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.UsernamePlace)
+
+	-- Username Setting
+	-- From: https://www.youtube.com/watch?v=e4nBaHjr5Hw
+	-- dunno how to make one myself l0l
 	
 	local plrAvatar, isReady = game:GetService("Players"):GetUserThumbnailAsync(game:GetService("Players").LocalPlayer.UserId, Enum.ThumbnailType.AvatarBust, Enum.ThumbnailSize.Size48x48)
 	
@@ -2446,7 +2435,7 @@ local function LCSYH_fake_script()
 	script.Parent.Icon.ProfileImage.Image = plrAvatar
 end
 coroutine.wrap(LCSYH_fake_script)()
-local function WEDKE_fake_script()
+local function WEDKE_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.SettingsSystem 
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.SonicWaveAndroidUI)
 
 	ChosenColor = "#C33939"
@@ -2479,9 +2468,59 @@ local function WEDKE_fake_script()
 	
 	-- Set Color
 	
-	if not isfile("theme_sonicwave.txt") then
-		writefile("theme_sonicwave.txt", "#C33939")
+	if not isfile("theme_sonicwave_color.txt") then
+		writefile("theme_sonicwave_color.txt", "FF399CF8")
 	else
+		
+		local success, err = pcall(function()
+			ChosenColor = readfile("theme_sonicwave_color.txt")
+			wait(1)
+			LoadColors()
+		end)
+	
+		if not success then
+			warn(err)
+		end
+		
+		--[[
+			local success, ChosenColor = pcall(readfile(), "theme_sonicwave_color.txt")
+	
+		if success then
+			LoadColors()
+		else
+			warn(ChosenColor)
+		end
+		]]
+	end
+	
+	
+	--if not isfile("theme_sonicwave_color.txt") then
+		--writefile("theme_sonicwave_color.txt", "#C33939")
+	--else
+		--ChosenColor = readfile("theme_sonicwave_color.txt")
+		--script.Parent.IntroFrame.ImageColor3 = Color3.fromHex(ChosenColor)
+		--LoadColors()
+	--end
+	
+	
+	-- Set FPS
+	local success, result = pcall(function()
+		if isfile("settings_fps.txt") == true then
+			setfpscap(tonumber(readfile("settings_fps.txt")))
+		end
+	end)
+	
+	if not success then
+		-- Handle the error, you can print a message or take other appropriate actions
+		print(result)
+	end
+	
+	
+	--if isfile("settings_fps.txt") == true then
+		--setfpscap(tonumber(readfile("settings_fps.txt")))
+	--end
+	
+	-- Set Inject Code
 	local success, result = pcall(function()
 		if isfile("injectcode.txt") then
 			script.Parent.SettingsWindow.ScrollingFrame.S3.InjectCodeTextbox.Text = readfile("injectcode.txt")
@@ -2489,9 +2528,19 @@ local function WEDKE_fake_script()
 	end)
 	
 	if not success then
-		print("无法读取文件:", result)
+		print(result)
 	end
-
+	
+	--if isfile("injectcode.txt") == true then
+		--script.Parent.SettingsWindow.ScrollingFrame.S3.InjectCodeTextbox.Text = readfile("injectcode.txt")
+	--end
+	
+	
+	script.Parent.SettingsWindow.ScrollingFrame.S1.SubmitAccent.MouseButton1Click:Connect(function()
+		writefile("theme_sonicwave_color.txt", script.Parent.SettingsWindow.ScrollingFrame.S1.AccentTextBox.Text)
+		ChosenColor = script.Parent.SettingsWindow.ScrollingFrame.S1.AccentTextBox.Text
+		LoadColors()
+	end)
 	
 	script.Parent.SettingsWindow.ScrollingFrame.S2.SubmitFPS.MouseButton1Click:Connect(function()
 		writefile("settings_fps.txt", script.Parent.SettingsWindow.ScrollingFrame.S2.FPSTextBox.Text)
@@ -2518,17 +2567,14 @@ local function WEDKE_fake_script()
 	end)
 end
 coroutine.wrap(WEDKE_fake_script)()
-local function AXFKKD_fake_script()
+local function AXFKKD_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Loading 
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.SonicWaveAndroidUI)
-
 	ATime = 2
 	zidongjiaobenyunxinglujingzifuchuan = "Autoexec"
 	
-	-- Key System Pre-Requisities
-	
-	PandaAuth = loadstring(game:HttpGet('https://raw.githubusercontent.com/Panda-Repositories/PandaKS_Libraries/main/library/LuaLib/ROBLOX/PandaBetaLib.lua'))()
 	KSCanUse = true
-	BKKeySystem = ""
+	BKKeySystem = "2309e1bb31175chd3826f1a4e7fb3f5d88d0d6e6a532f518e716a1806014996"
+	
 	function CheckIfAutoexecExists()
 		local success, err = pcall(function()
 			if not arceus.isarceusfolder(zidongjiaobenyunxinglujingzifuchuan) then
@@ -2560,36 +2606,10 @@ local function AXFKKD_fake_script()
 			print(zidongjiaobenyunxinglujingzifuchuan, err)
 		end
 	end
-	LoadAutoexec();
 	CheckIfAutoexecExists()
+	local KeyIsValid = true
 	
-	script.Parent.SonicWaveMenuToggleFrame.Visible = false
 	
-	
-	repeat until game:IsLoaded()
-	for _,Key in pairs(script.Parent.IntroFrame.BackgroundFrame:GetChildren()) do
-		game:GetService("TweenService"):Create(Key, TweenInfo.new(ATime), {BackgroundTransparency = 0}):Play()
-		Key:TweenSize(UDim2.new(0.075,0,1,0), "Out", "Quad", ATime, true)
-		wait(0.05)
-	end
-	
-	wait(0.25)
-	
-	game:GetService("TweenService"):Create(script.Parent.IntroFrame.SonicWaveLogo, TweenInfo.new(1), {ImageTransparency = 0}):Play()
-	script.Parent.IntroFrame.SonicWaveLogo:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out", "Quad", 1, true)
-	
-	wait(1.5)
-	
-	game:GetService("TweenService"):Create(script.Parent.IntroFrame.SonicWaveLogo, TweenInfo.new(1), {ImageTransparency = 1}):Play()
-	script.Parent.IntroFrame.SonicWaveLogo:TweenPosition(UDim2.new(0.5,0,0.3,0), "Out", "Quad", 1, true)
-	
-	for _,Key in pairs(script.Parent.IntroFrame.BackgroundFrame:GetChildren()) do
-		game:GetService("TweenService"):Create(Key, TweenInfo.new(ATime), {BackgroundTransparency = 1}):Play()
-		Key:TweenSize(UDim2.new(0.075,0,0,0), "Out", "Quad", ATime, true)
-		wait(0.05)
-	end
-	
-	local KeyIsValid = false
 end
 coroutine.wrap(AXFKKD_fake_script)()
 local function HMEQ_fake_script()
@@ -2636,7 +2656,7 @@ local function HMEQ_fake_script()
 	end)
 end
 coroutine.wrap(HMEQ_fake_script)()
-local function HQXZIGV_fake_script()
+local function HQXZIGV_fake_script() -- SonicWaveAndroidUI.ExecutorWindow.ExecutorTabs 
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.ExecutorWindow)
 
 	local scriptamt = 1
@@ -2690,49 +2710,7 @@ local function HQXZIGV_fake_script()
 	end)
 end
 coroutine.wrap(HQXZIGV_fake_script)()
-local function KRMQQ_fake_script()
-	local script = Instance.new('LocalScript', SonicWaveAndroidUI.SonicWaveAndroidUI)
-
-	getgenv().DevConnect = function(devcode)
-		warn("(Panda-Pelican Development | HTTP Protocol [ Beta ])")
-		local No_Execute = "No_Data_Set_Here"
-		local IPv4 = base64.decode(devcode)
-		if IPv4 == "" or IPv4 == nil then
-			warn("[Unable to Start HTTP-Protocol] - Missing IP Address / Port")
-			return
-		end
-		task.spawn(function() 
-			script.Parent.ExecutorWindow.DevModeB.BackgroundColor3 = Color3.fromRGB(57, 195, 57)
-			while true do
-				wait(0.1)
-				local content = game:HttpGet("http://"..IPv4..":2023".."/readcontent")     
-				if content ~= No_Execute then
-					local success, result = pcall(function()
-						runcode(content)
-						local a = tostring(game:HttpGet("http://"..IPv4..":2023".."/clear"))
-					end)
-	
-					if not success then
-						-- Handle the exception here
-						warn("Error executing loaded code:", result)
-						local b = tostring(game:HttpGet("http://"..IPv4..":2023".."/clear"))
-					end        
-				end
-			end
-		end) 
-	end
-	
-	script.Parent.ExecutorWindow.DevModeB.MouseButton1Click:connect(function()
-		if isfile("injectcode.txt") == false then
-			script.Parent.ExecutorWindow.ScrollingBox.TextBox.Text = "soon"
-		else
-			DevConnect(readfile("injectcode.txt"))
-		end
-	
-	end)
-end
-coroutine.wrap(KRMQQ_fake_script)()
-local function WIPGVFY_fake_script()
+local function WIPGVFY_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.UIDragging 
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.SonicWaveAndroidUI)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2776,7 +2754,7 @@ local function WIPGVFY_fake_script()
 	end)
 end
 coroutine.wrap(WIPGVFY_fake_script)()
-local function AVHC_fake_script()
+local function AVHC_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.ScrollingFrameAdjuster 
 	local script = Instance.new('LocalScript', SonicWaveAndroidUI.SonicWaveAndroidUI)
 
 	
@@ -2795,7 +2773,5 @@ local function AVHC_fake_script()
 	script.Parent.SidebarFrame.ScrollingFrame.UIListLayout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
 		script.Parent.SidebarFrame.ScrollingFrame.CanvasSize = UDim2.new(0,0,0,script.Parent.SidebarFrame.ScrollingFrame.UIListLayout.AbsoluteContentSize.Y)
 	end)
-	
-	
 end
 coroutine.wrap(AVHC_fake_script)()
