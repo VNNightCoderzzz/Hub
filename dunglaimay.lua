@@ -1,4 +1,3 @@
--- huh?
 local SonicWaveAndroidUI = {
 	SonicWaveAndroidUI = Instance.new("ScreenGui"),
 	SettingsWindow = Instance.new("Frame"),
@@ -318,7 +317,7 @@ SonicWaveAndroidUI.SonicWaveLogo.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo.Position = UDim2.new(0, 25, 0.5, 0)
 SonicWaveAndroidUI.SonicWaveLogo.Size = UDim2.new(0, 52, 0, 52)
 SonicWaveAndroidUI.SonicWaveLogo.ZIndex = 21
-SonicWaveAndroidUI.SonicWaveLogo.Image = "http://www.roblox.com/asset/?id=70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo.Image = "rbxassetid://70693302409213"
 
 SonicWaveAndroidUI.S1.Name = "S1"
 SonicWaveAndroidUI.S1.Parent = SonicWaveAndroidUI.ScrollingFrame
@@ -653,7 +652,7 @@ SonicWaveAndroidUI.ImageLabel.BackgroundTransparency = 1.000
 SonicWaveAndroidUI.ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.ImageLabel.BorderSizePixel = 0
 SonicWaveAndroidUI.ImageLabel.Size = UDim2.new(1, 0, 1, 0)
-SonicWaveAndroidUI.ImageLabel.Image = "http://www.roblox.com/asset/?id=11716682263"
+SonicWaveAndroidUI.ImageLabel.Image = "rbxassetid://70693302409213"
 SonicWaveAndroidUI.ImageLabel.ScaleType = Enum.ScaleType.Crop
 
 SonicWaveAndroidUI.UICorner_18.CornerRadius = UDim.new(0, 10)
@@ -819,7 +818,6 @@ SonicWaveAndroidUI.HappyGuy.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.HappyGuy.BorderSizePixel = 0
 SonicWaveAndroidUI.HappyGuy.Position = UDim2.new(0.5, 0, 1, 0)
 SonicWaveAndroidUI.HappyGuy.Size = UDim2.new(1, 0, 1, -110)
-SonicWaveAndroidUI.HappyGuy.Image = "http://www.roblox.com/asset/?id=13329667664"
 SonicWaveAndroidUI.HappyGuy.ImageTransparency = 0.500
 SonicWaveAndroidUI.HappyGuy.ScaleType = Enum.ScaleType.Fit
 
@@ -831,7 +829,7 @@ SonicWaveAndroidUI.SonicWaveLogo_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.SonicWaveLogo_2.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo_2.Position = UDim2.new(0, 10, 0, 70)
 SonicWaveAndroidUI.SonicWaveLogo_2.Size = UDim2.new(0, 25, 0, 25)
-SonicWaveAndroidUI.SonicWaveLogo_2.Image = "http://www.roblox.com/asset/?id=70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo_2.Image = "rbxassetid://70693302409213"
 
 SonicWaveAndroidUI.TitleLabel.Name = "TitleLabel"
 SonicWaveAndroidUI.TitleLabel.Parent = SonicWaveAndroidUI.Banner
@@ -1136,7 +1134,7 @@ SonicWaveAndroidUI.ImageLabel_5.BorderSizePixel = 0
 SonicWaveAndroidUI.ImageLabel_5.Position = UDim2.new(0.5, 0, 0.5, 0)
 SonicWaveAndroidUI.ImageLabel_5.Size = UDim2.new(1, 0, 1, 0)
 SonicWaveAndroidUI.ImageLabel_5.ZIndex = 11
-SonicWaveAndroidUI.ImageLabel_5.Image = "http://www.roblox.com/asset/?id=70693302409213"
+SonicWaveAndroidUI.ImageLabel_5.Image = "rbxassetid://70693302409213"
 
 SonicWaveAndroidUI.DragTouch.Name = "DragTouch"
 SonicWaveAndroidUI.DragTouch.Parent = SonicWaveAndroidUI.SonicWaveMenuToggleFrame
@@ -1283,7 +1281,7 @@ SonicWaveAndroidUI.SonicWaveLogo_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.SonicWaveLogo_3.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo_3.Position = UDim2.new(0, 10, 0, 10)
 SonicWaveAndroidUI.SonicWaveLogo_3.Size = UDim2.new(0, 25, 0, 25)
-SonicWaveAndroidUI.SonicWaveLogo_3.Image = "http://www.roblox.com/asset/?id=70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo_3.Image = "rbxassetid://70693302409213"
 
 SonicWaveAndroidUI.UICorner_34.Parent = SonicWaveAndroidUI.MainBanner
 
@@ -1296,7 +1294,6 @@ SonicWaveAndroidUI.HappyGuy_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.HappyGuy_2.BorderSizePixel = 0
 SonicWaveAndroidUI.HappyGuy_2.Position = UDim2.new(0.5, 0, 1, 0)
 SonicWaveAndroidUI.HappyGuy_2.Size = UDim2.new(1, 0, 0.800000012, 0)
-SonicWaveAndroidUI.HappyGuy_2.Image = "http://www.roblox.com/asset/?id=13329667664"
 SonicWaveAndroidUI.HappyGuy_2.ImageTransparency = 0.500
 SonicWaveAndroidUI.HappyGuy_2.ScaleType = Enum.ScaleType.Fit
 
@@ -1332,7 +1329,7 @@ SonicWaveAndroidUI.SonicWaveLogo_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
 SonicWaveAndroidUI.SonicWaveLogo_4.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo_4.Position = UDim2.new(0, 10, 0, 10)
 SonicWaveAndroidUI.SonicWaveLogo_4.Size = UDim2.new(0, 25, 0, 25)
-SonicWaveAndroidUI.SonicWaveLogo_4.Image = "http://www.roblox.com/asset/?id=70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo_4.Image = "rbxassetid://70693302409213"
 
 SonicWaveAndroidUI.UICorner_35.Parent = SonicWaveAndroidUI.PremiumBanner
 
@@ -1498,7 +1495,7 @@ SonicWaveAndroidUI.ImageLabel_6.BorderSizePixel = 0
 SonicWaveAndroidUI.ImageLabel_6.Position = UDim2.new(0.5, 0, 0.5, 0)
 SonicWaveAndroidUI.ImageLabel_6.Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
 SonicWaveAndroidUI.ImageLabel_6.ZIndex = 11
-SonicWaveAndroidUI.ImageLabel_6.Image = "http://www.roblox.com/asset/?id=70693302409213"
+SonicWaveAndroidUI.ImageLabel_6.Image = "rbxassetid://70693302409213"
 
 SonicWaveAndroidUI.IntroFrame.Name = "IntroFrame"
 SonicWaveAndroidUI.IntroFrame.Parent = SonicWaveAndroidUI.SonicWaveAndroidUI
@@ -1730,7 +1727,7 @@ SonicWaveAndroidUI.SonicWaveLogo_5.BorderSizePixel = 0
 SonicWaveAndroidUI.SonicWaveLogo_5.Position = UDim2.new(0.5, 0, 0.699999988, 0)
 SonicWaveAndroidUI.SonicWaveLogo_5.Size = UDim2.new(0, 100, 0, 100)
 SonicWaveAndroidUI.SonicWaveLogo_5.ZIndex = 21
-SonicWaveAndroidUI.SonicWaveLogo_5.Image = "http://www.roblox.com/asset/?id=70693302409213"
+SonicWaveAndroidUI.SonicWaveLogo_5.Image = "rbxassetid://70693302409213"
 SonicWaveAndroidUI.SonicWaveLogo_5.ImageTransparency = 1.000
 
 SonicWaveAndroidUI.ScriptListWindow.Name = "ScriptListWindow"
