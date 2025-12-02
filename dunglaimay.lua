@@ -1,3 +1,4 @@
+-- huh?
 local SonicWaveAndroidUI = {
 	SonicWaveAndroidUI = Instance.new("ScreenGui"),
 	SettingsWindow = Instance.new("Frame"),
@@ -2606,9 +2607,45 @@ local function AXFKKD_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Loa
 			print(zidongjiaobenyunxinglujingzifuchuan, err)
 		end
 	end
+	function LoadSonicWave()
+		LoadAutoexec()
+		script.Parent.SonicWaveMenuToggleFrame.Visible = true
+		_G.MenuOpen = true
+		script.Parent.SidebarFrame:TweenPosition(UDim2.new(0, 0, 0.5, 0), "Out", "Quint", 1, true)
+		getgenv().arceus = nil
+	end
 	CheckIfAutoexecExists()
-	local KeyIsValid = true
+	script.Parent.SonicWaveMenuToggleFrame.Visible = false
 	
+	
+	repeat until game:IsLoaded()
+	for _,Key in pairs(script.Parent.IntroFrame.BackgroundFrame:GetChildren()) do
+		game:GetService("TweenService"):Create(Key, TweenInfo.new(ATime), {BackgroundTransparency = 0}):Play()
+		Key:TweenSize(UDim2.new(0.075,0,1,0), "Out", "Quad", ATime, true)
+		wait(0.05)
+	end
+	
+	wait(0.25)
+	
+	game:GetService("TweenService"):Create(script.Parent.IntroFrame.SonicWaveLogo, TweenInfo.new(1), {ImageTransparency = 0}):Play()
+	script.Parent.IntroFrame.SonicWaveLogo:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out", "Quad", 1, true)
+	
+	wait(1.5)
+	
+	game:GetService("TweenService"):Create(script.Parent.IntroFrame.SonicWaveLogo, TweenInfo.new(1), {ImageTransparency = 1}):Play()
+	script.Parent.IntroFrame.SonicWaveLogo:TweenPosition(UDim2.new(0.5,0,0.3,0), "Out", "Quad", 1, true)
+	
+	for _,Key in pairs(script.Parent.IntroFrame.BackgroundFrame:GetChildren()) do
+		game:GetService("TweenService"):Create(Key, TweenInfo.new(ATime), {BackgroundTransparency = 1}):Play()
+		Key:TweenSize(UDim2.new(0.075,0,0,0), "Out", "Quad", ATime, true)
+		wait(0.05)
+	end
+	
+	wait(1)
+	
+	script.Parent.IntroFrame:Destroy()
+
+		LoadSonicWave()
 	
 end
 coroutine.wrap(AXFKKD_fake_script)()
