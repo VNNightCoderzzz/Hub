@@ -280,7 +280,7 @@ SonicWaveAndroidUI.Title.BorderSizePixel = 0
 SonicWaveAndroidUI.Title.Position = UDim2.new(0, 87, 0, 0)
 SonicWaveAndroidUI.Title.Size = UDim2.new(0.5, 0, 0.5, 0)
 SonicWaveAndroidUI.Title.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.Title.Text = "Vega X 4.0"
+SonicWaveAndroidUI.Title.Text = "SonicWave"
 SonicWaveAndroidUI.Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.Title.TextSize = 19.000
 SonicWaveAndroidUI.Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -841,7 +841,7 @@ SonicWaveAndroidUI.TitleLabel.BorderSizePixel = 0
 SonicWaveAndroidUI.TitleLabel.Position = UDim2.new(0, 40, 0, 70)
 SonicWaveAndroidUI.TitleLabel.Size = UDim2.new(0, 150, 0, 25)
 SonicWaveAndroidUI.TitleLabel.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.TitleLabel.Text = "Vega X 4.0.6"
+SonicWaveAndroidUI.TitleLabel.Text = "SonicWave"
 SonicWaveAndroidUI.TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.TitleLabel.TextSize = 12.000
 SonicWaveAndroidUI.TitleLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -1308,7 +1308,7 @@ SonicWaveAndroidUI.TitleLabel_2.BorderSizePixel = 0
 SonicWaveAndroidUI.TitleLabel_2.Position = UDim2.new(0, 40, 0, 10)
 SonicWaveAndroidUI.TitleLabel_2.Size = UDim2.new(0, 150, 0, 25)
 SonicWaveAndroidUI.TitleLabel_2.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.TitleLabel_2.Text = "Vega X 4.0"
+SonicWaveAndroidUI.TitleLabel_2.Text = "SonicWave
 SonicWaveAndroidUI.TitleLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.TitleLabel_2.TextSize = 12.000
 SonicWaveAndroidUI.TitleLabel_2.TextXAlignment = Enum.TextXAlignment.Left
@@ -1358,7 +1358,7 @@ SonicWaveAndroidUI.TitleLabel_4.BorderSizePixel = 0
 SonicWaveAndroidUI.TitleLabel_4.Position = UDim2.new(0, 10, 0, 39)
 SonicWaveAndroidUI.TitleLabel_4.Size = UDim2.new(1, -20, 1, -97)
 SonicWaveAndroidUI.TitleLabel_4.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.TitleLabel_4.Text = "Want to skip the keys?\nGet Vega X Premium below!"
+SonicWaveAndroidUI.TitleLabel_4.Text = "soon"
 SonicWaveAndroidUI.TitleLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.TitleLabel_4.TextScaled = true
 SonicWaveAndroidUI.TitleLabel_4.TextSize = 12.000
@@ -1375,7 +1375,7 @@ SonicWaveAndroidUI.CopyWebsiteURL.Position = UDim2.new(0.5, 0, 1, -50)
 SonicWaveAndroidUI.CopyWebsiteURL.Size = UDim2.new(1, -20, 0, 40)
 SonicWaveAndroidUI.CopyWebsiteURL.ZIndex = 101
 SonicWaveAndroidUI.CopyWebsiteURL.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.CopyWebsiteURL.Text = "Get Vega X Premium"
+SonicWaveAndroidUI.CopyWebsiteURL.Text = "SonicWave Premium ( Soon )"
 SonicWaveAndroidUI.CopyWebsiteURL.TextColor3 = Color3.fromRGB(195, 57, 57)
 SonicWaveAndroidUI.CopyWebsiteURL.TextSize = 16.000
 
@@ -1446,7 +1446,7 @@ SonicWaveAndroidUI.MainTitle.LayoutOrder = 1
 SonicWaveAndroidUI.MainTitle.Position = UDim2.new(0, 7, 0, 88)
 SonicWaveAndroidUI.MainTitle.Size = UDim2.new(1, -14, 0, 21)
 SonicWaveAndroidUI.MainTitle.Font = Enum.Font.GothamBold
-SonicWaveAndroidUI.MainTitle.Text = "[Vega X] Key System"
+SonicWaveAndroidUI.MainTitle.Text = "SonicWave"
 SonicWaveAndroidUI.MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 SonicWaveAndroidUI.MainTitle.TextSize = 18.000
 SonicWaveAndroidUI.MainTitle.TextYAlignment = Enum.TextYAlignment.Top
@@ -2567,14 +2567,13 @@ local function WEDKE_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Sett
 	end)
 end
 coroutine.wrap(WEDKE_fake_script)()
-local function AXFKKD_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Loading 
-	local script = Instance.new('LocalScript', SonicWaveAndroidUI.SonicWaveAndroidUI)
+local function AXFKKD_fake_script()
+	local script = Instance.new('LocalScript', VegaXAndroidUI.VegaXAndroidUI)
+
 	ATime = 2
 	zidongjiaobenyunxinglujingzifuchuan = "Autoexec"
 	
-	KSCanUse = true
-	BKKeySystem = "2309e1bb31175chd3826f1a4e7fb3f5d88d0d6e6a532f518e716a1806014996"
-	
+		KSCanUse = true
 	function CheckIfAutoexecExists()
 		local success, err = pcall(function()
 			if not arceus.isarceusfolder(zidongjiaobenyunxinglujingzifuchuan) then
@@ -2606,10 +2605,42 @@ local function AXFKKD_fake_script() -- SonicWaveAndroidUI.SonicWaveAndroidUI.Loa
 			print(zidongjiaobenyunxinglujingzifuchuan, err)
 		end
 	end
+	
+	
+	function LoadVegaXSystem()
+		LoadAutoexec()
+		script.Parent.KeySystem.Visible = false
+		script.Parent.VegaXMenuToggleFrame.Visible = true
+		_G.MenuOpen = true
+		script.Parent.SidebarFrame:TweenPosition(UDim2.new(0, 0, 0.5, 0), "Out", "Quint", 1, true)
+		getgenv().arceus = nil
+	end
 	CheckIfAutoexecExists()
-	local KeyIsValid = true
+	script.Parent.VegaXMenuToggleFrame.Visible = false
+	repeat until game:IsLoaded()
+	for _,Key in pairs(script.Parent.IntroFrame.BackgroundFrame:GetChildren()) do
+		game:GetService("TweenService"):Create(Key, TweenInfo.new(ATime), {BackgroundTransparency = 0}):Play()
+		Key:TweenSize(UDim2.new(0.075,0,1,0), "Out", "Quad", ATime, true)
+		wait(0.05)
+	end
 	
+	wait(0.25)
 	
+	game:GetService("TweenService"):Create(script.Parent.IntroFrame.VegaXLogo, TweenInfo.new(1), {ImageTransparency = 0}):Play()
+	script.Parent.IntroFrame.VegaXLogo:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out", "Quad", 1, true)
+	
+	wait(1.5)
+	
+	game:GetService("TweenService"):Create(script.Parent.IntroFrame.VegaXLogo, TweenInfo.new(1), {ImageTransparency = 1}):Play()
+	script.Parent.IntroFrame.VegaXLogo:TweenPosition(UDim2.new(0.5,0,0.3,0), "Out", "Quad", 1, true)
+	
+	for _,Key in pairs(script.Parent.IntroFrame.BackgroundFrame:GetChildren()) do
+		game:GetService("TweenService"):Create(Key, TweenInfo.new(ATime), {BackgroundTransparency = 1}):Play()
+		Key:TweenSize(UDim2.new(0.075,0,0,0), "Out", "Quad", ATime, true)
+		wait(0.05)
+	end
+	wait(1)
+	script.Parent.IntroFrame:Destroy()
 end
 coroutine.wrap(AXFKKD_fake_script)()
 local function HMEQ_fake_script()
